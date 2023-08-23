@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <script src="https://kit.fontawesome.com/ceedc34a28.js" crossorigin="anonymous"></script>
+  </head>
+  <header class="header">
+    Header: 100px
+  </header>
+  <body>
+    <main class="content">
+      <div class="main-img">
+        <div class="main-cta">
+          <h1>Chandrayaan-3 is the third of India's Moon mission.</h1>
+          <button class="btn" id="btn">Click Here <span class="next-arrow"><i class="fa-solid fa-arrow-right"></i></span></button>
+        </div>
+        <picture>
+          <source media="(min-width:769px)" srcset="./assets/images/large_banner.webp">
+          <source media="(min-width:575px)" srcset="./assets/images/medium_banner.webp">
+          <img src="./assets/images/small_banner.webp" alt="Flowers" class="banner">
+        </picture>
+      </div>
+      <div class="overlay" id="overlay"></div>
+      <div id="alertPopup" class="alertPopup">
+        <span id="closeModal" class="closeModal"><i class="fa-solid fa-xmark"></i></span>
+        <h2>Hello, World</h2>
+      </div>
+    </main>
+    <footer class="footer">
+      Footer: 100px
+    </footer>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
